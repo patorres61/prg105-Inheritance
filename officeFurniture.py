@@ -76,9 +76,9 @@ class Furniture(object):
         return self.__price * self.__quantity
 
     def __str__(self):
-        line_item = self.__category + " Material: " + self.__material + " Length: " + str(
-            self.__length) + " Width: " + str(self.__width) + " Height: " + str(self.__height) + "  Quantity: " + str(
-            self.__quantity) + " Each: ${:0,.2f}".format(self.__price) + "  Total= ${:0,.2f}".format(
+        line_item = self.__category + "   Material: " + self.__material + "   Length: " + str(
+            self.__length) + "   Width: " + str(self.__width) + "   Height: " + str(self.__height) + "   Quantity: " + str(
+            self.__quantity) + "   Each: ${:0,.2f}".format(self.__price) + "   Total= ${:0,.2f}".format(
             self.get_item_price())
         return line_item
 
@@ -118,10 +118,10 @@ class Desk(Furniture):
         return self.__location
 
     def __str__(self):
-        line_item = "Product: " + self.get_category() + " Material: " + self.get_material() + " Length: " + str(
-            self.get_length()) + " Width: " + str(self.get_width()) + " Height: " + str(
-            self.get_height()) + " Number of Drawers: " + str(
-            self.get_drawers()) + " Drawer Location: " + self.get_location() + "  Quantity: " + str(
-            self.get_quantity()) + " Each: ${:0,.2f}".format(self.get_price()) + "  Total= ${:0,.2f}".format(
+        line_item = "Product: " + self.get_category() + "   Material: " + self.get_material() + "   Length: " + str(
+            self.get_length()) + "   Width: " + str(self.get_width()) + "   Height: " + str(
+            self.get_height()) + "   Number of Drawers: " + str(
+            self.get_drawers()) + "   Drawer Location: " + self.get_location() + "   Quantity: " + str(
+            self.get_quantity()) + "   Each: ${:0,.2f}".format(self.get_price()) + "   Total= ${:0,.2f}".format(
             self.get_item_price())
         return line_item

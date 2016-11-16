@@ -20,7 +20,7 @@ def main():
     print("Number of Drawers: " + str(desk.get_drawers()))
     print("Location of Drawers: " + desk.get_location())
     print("Quantity: " + str(desk.get_quantity()))
-    print("Price: ${:0,.2f}".format(desk.get_price()))
+    print("Price: ${:0,.2f}\n".format(desk.get_price()))
 
     print desk
 

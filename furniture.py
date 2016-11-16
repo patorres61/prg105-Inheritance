@@ -18,7 +18,7 @@ def main():
     print("Width: " + str(cabinet.get_width()))
     print("Height: " + str(cabinet.get_height()))
     print("Quantity: " + str(cabinet.get_quantity()))
-    print("Price: ${:0,.2f}".format(cabinet.get_price()))
+    print("Price: ${:0,.2f}\n".format(cabinet.get_price()))
 
     print cabinet
 
